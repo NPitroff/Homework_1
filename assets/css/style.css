@@ -1,38 +1,39 @@
+/*Styling applied to the entire document*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Styling for the header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-header div {
+/*Styling for the div wrapping the unordered List*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-header div ul li {
+/*Styling for the list and its items*/
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Styling for a tags*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Styling for p tags*/
 p {
     font-size: 16px;
 }
-
+/*For the Dilligent Worker Image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -41,23 +42,23 @@ p {
     object-fit: cover;
     object-position: center;
 }
-
+/* CSS for "search-engine-optimization" & "social-media-marketing"*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* CSS for "online-reputation-management"*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*CSS for the containing div of Benefits*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Styling for the Benefits div and its sections*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -68,23 +69,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Benefits Section Styling*/
 .benefit-list {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Benefit List Section's Text*/
 .benefit-list h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*All Images in the Benefits Sections*/
 .benefit-list img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Styling for the 'Social-media-marketing' section & its elements */
 .fact {
     margin-bottom: 20px;
     padding: 50px;
@@ -93,23 +94,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Styling for all images in the "Social-Media-Marketing" section*/
 .fact img {
     max-height: 200px;
 }
-
+/*Styling for all the text in the "Social-Media-Marketing" section*/
 .fact h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Signature & Credits*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*Text in the footer*/
 .footer h2 {
     font-size: 20px;
 }
